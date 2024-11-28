@@ -18,9 +18,9 @@ Technologies Used:
  . FreeTestAPI
 
  Setup Instructions:
-  1. Clone the repository: git clone https://github.com/your-username/online-library-system.git
+  1. Clone the repository: git clone https://github.com/imsourav123/-Online-Library-System
   2. Navigate into the project directory: cd library
   3. Install dependencies: npm install
   4. Start the development server: npm run dev
-  5. Open your browser and go to [http://localhost:5173/](http://localhost:5173/) to view the application.
+  5. Open your browser and go to http://localhost:5173/ to view the application.
   6. Technologies Used . React . CSS (for basic styling) . Vite (for faster development)
