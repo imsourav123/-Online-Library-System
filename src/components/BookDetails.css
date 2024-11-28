@@ -1,0 +1,67 @@
+/* BookDetails.css */
+
+.bookDetailsContainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bookDetailsContainer h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.bookDetailsContainer img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bookDetailsContainer p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.bookDetailsContainer button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.bookDetailsContainer button:hover {
+    background-color: #3498db;
+}
+
+/* Additional styling for better readability on mobile */
+@media (max-width: 600px) {
+    .bookDetailsContainer {
+        padding: 10px;
+    }
+
+    .bookDetailsContainer h1 {
+        font-size: 2rem;
+    }
+
+    .bookDetailsContainer img {
+        width: 150px;
+    }
+
+    .bookDetailsContainer button {
+        width: 100%;
+    }
+}
